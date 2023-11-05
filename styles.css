@@ -1,0 +1,113 @@
+*{
+    font-family: EB Garamond;
+}
+.btn{
+    background-color: #B68C5A;
+    color: #FFFFFF;
+    width: 180px;
+    height: 55px;
+}
+.btn:hover{
+    background-color: #b36a12;
+    color: #FFFFFF;
+}
+/* banner */
+.home .home-banner-1{
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height:  650px;
+    position: relative;
+}
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home .home-banner .home-banner-text h2{ 
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.home .home-banner .home-banner-text p{ 
+    color: #FFFFFF;
+    width: 679px;
+}
+#email{
+    width: 500px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.client .clients-say{
+    background: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.client .clients-say .client-description{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #FFFFFF;
+}
+.client .clients-say .client-description h5{
+    padding-top: 18px;
+}
+.client .clients-say .client-description p{
+    padding-top: 30px;
+}
+#images img{
+    width: 500px;
+    height: 400px;
+
+}
+
+
+
+
+
+/* media query */
+@media (max-width:767px){
+    #email{
+        width: 300px;
+        height: 55px;
+    }
+    .home .home-banner .home-banner-text h2{ 
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .home .home-banner .home-banner-text p{ 
+        color: #FFFFFF;
+        width: 400px;
+    }
+}
+@media (max-width: 450px){
+    #email{
+        width: 270px;
+        height: 55px;
+    }
+    .home .home-banner .home-banner-text h2{ 
+        font-size: 22px;
+        color: #FFFFFF;
+        width: 350px;
+    }
+    .home .home-banner .home-banner-text p{ 
+        color: #FFFFFF;
+        width: 350px;
+    }
+    .client .clients-say .client-description h5{
+        padding-top: 10px;
+        
+    }
+    .client .clients-say .client-description p{
+        padding-top: 16px;
+        font-size: 14px;
+    }
+}
